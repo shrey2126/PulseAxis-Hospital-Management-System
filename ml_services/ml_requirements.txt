@@ -1,0 +1,12 @@
+# ML Model Dependencies
+scikit-learn==1.3.2
+pandas==2.1.4
+numpy==1.24.3
+xgboost==2.0.3
+scipy==1.11.4
+
+# Core Django Dependencies
+Django==5.2.5
+djangorestframework==3.16.1
+django-cors-headers==4.7.0
+python-dotenv==1.1.1

@@ -1,0 +1,17 @@
+{
+  "symptom_checker": {
+    "type": "RandomForest",
+    "features": "TF-IDF vectorized symptoms",
+    "output": "Disease classification"
+  },
+  "disease_prediction": {
+    "type": "Ensemble (RandomForest + XGBoost)",
+    "features": "Age, BP, HR, Temp, Weight, Height, BMI",
+    "output": "Disease risk assessment"
+  },
+  "treatment_recommendation": {
+    "type": "Rule-based + NLP",
+    "features": "Disease name",
+    "output": "Treatment options, medications, lifestyle changes"
+  }
+}
