@@ -60,4 +60,15 @@ cd admin && npm install && start cmd /k "npm run dev" && cd ..
 # Start Django AI Services
 cd django_env && .\Scripts\activate && pip install -r requirements.txt && cd ../ml_services && start cmd /k "python manage.py runserver" && cd ..
 
+---
+
+## 🌍 Ports Overview
+
+- **Backend (Node.js API)** → [http://localhost:4000](http://localhost:4000)  
+- **Frontend (Patient Panel)** → [http://localhost:5173](http://localhost:5173)  
+- **Admin Panel** → [http://localhost:5174](http://localhost:5174)  
+- **Django AI Services** → [http://localhost:8000](http://localhost:8000)  
+
+---
+
 
