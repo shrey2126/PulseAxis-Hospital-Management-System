@@ -7,7 +7,7 @@ const Header = () => {
             <div className="w-full h-[250px] sm:h-[350px] md:h-[500px] lg:h-[600px] overflow-hidden rounded-lg mb-6">
                 <video 
                     className="w-full h-full object-cover"
-                    src="/src/assets/hospital_intro.mp4"  // <-- place your video in public/videos
+                    src={assets.hospital_intro}
                     autoPlay
                     loop
                     muted
